@@ -23,6 +23,7 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -30,6 +31,9 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": ["cjs"]
     }
   }
 }

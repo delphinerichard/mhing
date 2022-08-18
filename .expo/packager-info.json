@@ -1,8 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
+  "expoServerPort": 19000,
   "packagerPort": 19000,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://xe-2pj.brizo.mhing.exp.direct",
+  "packagerNgrokUrl": "https://xe-2pj.brizo.mhing.exp.direct",
+  "ngrokPid": 36959,
+  "webpackServerPort": null,
+  "packagerPid": null
 }

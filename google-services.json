@@ -1,0 +1,39 @@
+{
+    "project_info": {
+      "project_number": "682874080109",
+      "project_id": "mhing-aaa37",
+      "storage_bucket": "mhing-aaa37.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:682874080109:android:a4f32e2dec912e165f2864",
+          "android_client_info": {
+            "package_name": "com.reactnativefirebase"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "682874080109-epr1lp1vuj7c7j0r39otar95clhai0jj.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyA5qFLetVa0rttQsVRdDdOKuhIaxR0PW8k"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "682874080109-epr1lp1vuj7c7j0r39otar95clhai0jj.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

@@ -18,7 +18,8 @@ export type RootStackParamList = {
   Modal: undefined;
   NotFound: undefined;
   NewGame: undefined;
-};
+  GameScreen: Game;
+}
 
 export type RootStackScreenProps<Screen extends keyof RootStackParamList> = NativeStackScreenProps<
   RootStackParamList,
@@ -26,13 +27,21 @@ export type RootStackScreenProps<Screen extends keyof RootStackParamList> = Nati
 >;
 
 export type RootTabParamList = {
-  TabOne: undefined;
+  SpecialGame: undefined;
   TabTwo: undefined;
   Home: undefined;
   NewGame: undefined;
+  GameScreen: Game;
 };
 
 export type RootTabScreenProps<Screen extends keyof RootTabParamList> = CompositeScreenProps<
   BottomTabScreenProps<RootTabParamList, Screen>,
   NativeStackScreenProps<RootStackParamList>
 >;
+
+export type Game = {
+  id: string;
+  playerList: string[];
+  gameType: string;
+  gameName: string;
+}
